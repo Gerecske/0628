@@ -13,6 +13,7 @@ namespace _0628
         {
             for (int i = 0; i < rnd.Next(1, 11); i++)
             {
+                Console.WriteLine(rnd.Next(0,2));
                 // Semmi
                 Console.WriteLine("I have " + rnd.Next(1, 21) + " aple pie");
             }
