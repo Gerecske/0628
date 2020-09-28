@@ -11,7 +11,11 @@ namespace _0628
         static Random rnd = new Random();
         static void Main(string[] args)
         {
-            Console.WriteLine("I have " + rnd.Next(1, 21) + " aple pie");
+            for (int i = 0; i < rnd.Next(1, 11); i++)
+            {
+                // Semmi
+                Console.WriteLine("I have " + rnd.Next(1, 21) + " aple pie");
+            }
             Console.ReadKey();
         }
     }
