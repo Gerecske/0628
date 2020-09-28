@@ -16,6 +16,8 @@ namespace _0628
                 // Semmi
                 Console.WriteLine("I have " + rnd.Next(1, 21) + " aple pie");
             }
+            Console.WriteLine("asdgfsdfhdfnh");
+
             Console.ReadKey();
         }
     }
